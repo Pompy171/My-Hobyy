@@ -1,0 +1,131 @@
+.profile {
+    width: 170px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    padding-top: 300px;
+}
+
+.class {
+    height: 10px;
+    width: 7px;
+    color: black;
+}
+
+#Welcome {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#05ffe2 0%, #03544b 100%);
+    height: 800px;
+    position: absolute;
+    display: table;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    height: 1.2;
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+    padding-top: 800px;
+}
+
+.links {
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.menu {
+    list-style: none;
+    z-index: 10;
+    position: fixed;
+    right: 10;
+    top: 30;
+    cursor: pointer;
+    color: green;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    padding: 15px;
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: bisque;
+}
+
+img {
+    transition: transform .2s;
+    padding-right: 15px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: darkgray;
+}
+
+#inspiration {
+    height: 250px;
+    padding-bottom: 100px;
+}
+
+#Mycarousel {
+    background-color: red;
+
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#fav-cycles{
+width: 50%;
+}
+
+#contact{
+    background-color: crimson;
+}
+
+.contact1 h3{
+    display: inline;
+}

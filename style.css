@@ -118,14 +118,19 @@ img:hover {
     font-size: 20px;
 }
 
-#fav-cycles{
-width: 50%;
+#fav-cycles {
+    width: 50%;
 }
 
-#contact{
+#contact {
     background-color: crimson;
 }
 
-.contact1 h3{
+.contact1 h3 {
     display: inline;
+}
+
+.menu:hover {
+    background-color: aliceblue;
+    text-shadow: 2px 2px gainsboro;
 }
